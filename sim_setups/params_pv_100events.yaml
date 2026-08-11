@@ -1,0 +1,449 @@
+system_params:
+  freq: 50
+  R1: 0.5
+  L1: 0.031831
+  R2: 0.5
+  L2: 0.031831
+  R3: 7.57
+  C3: 3.18e-07
+control_params:
+  Kp_cci: 0.1
+  Ki_cci: 20
+  Kp_pco: 0.5
+  Ki_pco: 30
+  Kp_pll: 25
+  Ki_pll: 300
+system_base:
+  Sbase: 100
+  Vbase: 100
+external_grid:
+  V_nom: 85
+  Angle_ini: -110
+init_setpoints:
+  P: 0.3
+  V: 0.965
+events:
+  s1:
+    type: P
+    time: 3.0
+    new_setpoint: 0.4
+  s2:
+    type: CC
+    time: 3.759
+    new_setpoint: 0.829748
+    end_time: 3.781
+  s3:
+    type: CC
+    time: 5.089
+    new_setpoint: 0.808721
+    end_time: 5.109
+  s4:
+    type: V
+    time: 6.521
+    new_setpoint: 0.94484
+  s5:
+    type: P
+    time: 7.319
+    new_setpoint: 0.421446
+  s6:
+    type: CC
+    time: 8.235
+    new_setpoint: 0.908708
+    end_time: 8.247
+  s7:
+    type: PJ
+    time: 9.569
+    new_setpoint: -2.485366
+  s8:
+    type: PJ
+    time: 11.02
+    new_setpoint: 7.020735
+  s9:
+    type: P
+    time: 12.459
+    new_setpoint: 0.501745
+  s10:
+    type: CC
+    time: 13.233
+    new_setpoint: 0.812766
+    end_time: 13.262
+  s11:
+    type: CC
+    time: 14.605
+    new_setpoint: 0.946563
+    end_time: 14.619
+  s12:
+    type: P
+    time: 16.013
+    new_setpoint: 0.4
+  s13:
+    type: PJ
+    time: 16.839
+    new_setpoint: 10.907232
+  s14:
+    type: P
+    time: 18.214
+    new_setpoint: 0.471447
+  s15:
+    type: V
+    time: 18.993
+    new_setpoint: 0.954604
+  s16:
+    type: CC
+    time: 19.923
+    new_setpoint: 0.869567
+    end_time: 19.938
+  s17:
+    type: V
+    time: 21.382
+    new_setpoint: 0.977163
+  s18:
+    type: P
+    time: 22.179
+    new_setpoint: 0.4
+  s19:
+    type: CC
+    time: 23.068
+    new_setpoint: 0.919131
+    end_time: 23.091
+  s20:
+    type: CC
+    time: 24.412
+    new_setpoint: 0.871158
+    end_time: 24.425
+  s21:
+    type: PJ
+    time: 25.675
+    new_setpoint: 6.417994
+  s22:
+    type: PJ
+    time: 26.949
+    new_setpoint: 6.913841
+  s23:
+    type: P
+    time: 28.422
+    new_setpoint: 0.468087
+  s24:
+    type: PJ
+    time: 29.284
+    new_setpoint: 17.444007
+  s25:
+    type: P
+    time: 30.663
+    new_setpoint: 0.456459
+  s26:
+    type: PJ
+    time: 31.648
+    new_setpoint: 0.187925
+  s27:
+    type: CC
+    time: 33.011
+    new_setpoint: 0.927847
+    end_time: 33.041
+  s28:
+    type: P
+    time: 34.266
+    new_setpoint: 0.4
+  s29:
+    type: CC
+    time: 35.063
+    new_setpoint: 0.890465
+    end_time: 35.08
+  s30:
+    type: CC
+    time: 36.558
+    new_setpoint: 0.962578
+    end_time: 36.577
+  s31:
+    type: PJ
+    time: 37.875
+    new_setpoint: 7.817141
+  s32:
+    type: PJ
+    time: 39.248
+    new_setpoint: 14.474422
+  s33:
+    type: PJ
+    time: 40.574
+    new_setpoint: 16.728007
+  s34:
+    type: CC
+    time: 41.916
+    new_setpoint: 0.832715
+    end_time: 41.945
+  s35:
+    type: PJ
+    time: 43.34
+    new_setpoint: 2.176709
+  s36:
+    type: PJ
+    time: 44.834
+    new_setpoint: 14.691252
+  s37:
+    type: V
+    time: 46.318
+    new_setpoint: 0.96461
+  s38:
+    type: P
+    time: 47.224
+    new_setpoint: 0.585862
+  s39:
+    type: V
+    time: 47.982
+    new_setpoint: 0.981024
+  s40:
+    type: P
+    time: 48.903
+    new_setpoint: 0.534223
+  s41:
+    type: PJ
+    time: 49.866
+    new_setpoint: -3.318579
+  s42:
+    type: V
+    time: 51.155
+    new_setpoint: 0.967179
+  s43:
+    type: P
+    time: 52.011
+    new_setpoint: 0.64714
+  s44:
+    type: PJ
+    time: 52.78
+    new_setpoint: 1.265798
+  s45:
+    type: CC
+    time: 54.12
+    new_setpoint: 0.829643
+    end_time: 54.143
+  s46:
+    type: CC
+    time: 55.406
+    new_setpoint: 0.911761
+    end_time: 55.418
+  s47:
+    type: P
+    time: 56.667
+    new_setpoint: 0.63829
+  s48:
+    type: P
+    time: 57.574
+    new_setpoint: 0.718838
+  s49:
+    type: V
+    time: 58.478
+    new_setpoint: 0.99263
+  s50:
+    type: V
+    time: 59.383
+    new_setpoint: 1.017314
+  s51:
+    type: PJ
+    time: 60.258
+    new_setpoint: -4.452359
+  s52:
+    type: V
+    time: 61.713
+    new_setpoint: 0.998642
+  s53:
+    type: PJ
+    time: 62.583
+    new_setpoint: 6.865935
+  s54:
+    type: CC
+    time: 63.952
+    new_setpoint: 0.903484
+    end_time: 63.979
+  s55:
+    type: CC
+    time: 65.447
+    new_setpoint: 0.853632
+    end_time: 65.477
+  s56:
+    type: P
+    time: 66.823
+    new_setpoint: 0.629152
+  s57:
+    type: CC
+    time: 67.815
+    new_setpoint: 0.878218
+    end_time: 67.844
+  s58:
+    type: P
+    time: 69.243
+    new_setpoint: 0.528982
+  s59:
+    type: V
+    time: 70.127
+    new_setpoint: 0.970605
+  s60:
+    type: V
+    time: 70.961
+    new_setpoint: 0.942523
+  s61:
+    type: V
+    time: 71.886
+    new_setpoint: 0.933132
+  s62:
+    type: P
+    time: 72.675
+    new_setpoint: 0.59931
+  s63:
+    type: PJ
+    time: 73.562
+    new_setpoint: 7.529378
+  s64:
+    type: PJ
+    time: 74.972
+    new_setpoint: -1.542613
+  s65:
+    type: CC
+    time: 76.352
+    new_setpoint: 0.810181
+    end_time: 76.373
+  s66:
+    type: V
+    time: 77.648
+    new_setpoint: 0.947472
+  s67:
+    type: PJ
+    time: 78.597
+    new_setpoint: 20.517126
+  s68:
+    type: V
+    time: 79.952
+    new_setpoint: 0.927263
+  s69:
+    type: CC
+    time: 80.95
+    new_setpoint: 0.900372
+    end_time: 80.96
+  s70:
+    type: PJ
+    time: 82.247
+    new_setpoint: 3.782105
+  s71:
+    type: PJ
+    time: 83.629
+    new_setpoint: -4.738791
+  s72:
+    type: V
+    time: 85.058
+    new_setpoint: 0.935972
+  s73:
+    type: CC
+    time: 85.876
+    new_setpoint: 0.836475
+    end_time: 85.889
+  s74:
+    type: V
+    time: 87.222
+    new_setpoint: 0.925
+  s75:
+    type: P
+    time: 88.09
+    new_setpoint: 0.423001
+  s76:
+    type: P
+    time: 89.008
+    new_setpoint: 0.461249
+  s77:
+    type: P
+    time: 89.894
+    new_setpoint: 0.575812
+  s78:
+    type: V
+    time: 90.835
+    new_setpoint: 0.936261
+  s79:
+    type: CC
+    time: 91.608
+    new_setpoint: 0.818141
+    end_time: 91.63
+  s80:
+    type: P
+    time: 92.9
+    new_setpoint: 0.640355
+  s81:
+    type: P
+    time: 93.89
+    new_setpoint: 0.721136
+  s82:
+    type: V
+    time: 94.653
+    new_setpoint: 0.961449
+  s83:
+    type: PJ
+    time: 95.566
+    new_setpoint: 2.749714
+  s84:
+    type: PJ
+    time: 96.874
+    new_setpoint: 17.027012
+  s85:
+    type: V
+    time: 98.193
+    new_setpoint: 0.932236
+  s86:
+    type: CC
+    time: 99.137
+    new_setpoint: 0.820925
+    end_time: 99.16
+  s87:
+    type: P
+    time: 100.478
+    new_setpoint: 0.797655
+  s88:
+    type: V
+    time: 101.465
+    new_setpoint: 0.925
+  s89:
+    type: CC
+    time: 102.324
+    new_setpoint: 0.946519
+    end_time: 102.335
+  s90:
+    type: V
+    time: 103.582
+    new_setpoint: 0.925
+  s91:
+    type: PJ
+    time: 104.333
+    new_setpoint: 17.364944
+  s92:
+    type: P
+    time: 105.752
+    new_setpoint: 0.844139
+  s93:
+    type: V
+    time: 106.535
+    new_setpoint: 0.925
+  s94:
+    type: V
+    time: 107.346
+    new_setpoint: 0.934776
+  s95:
+    type: PJ
+    time: 108.237
+    new_setpoint: 11.925478
+  s96:
+    type: PJ
+    time: 109.719
+    new_setpoint: 1.835412
+  s97:
+    type: CC
+    time: 111.191
+    new_setpoint: 0.83773
+    end_time: 111.21
+  s98:
+    type: V
+    time: 112.585
+    new_setpoint: 0.961661
+  s99:
+    type: P
+    time: 113.463
+    new_setpoint: 0.692104
+  s100:
+    type: PJ
+    time: 114.331
+    new_setpoint: 18.267432

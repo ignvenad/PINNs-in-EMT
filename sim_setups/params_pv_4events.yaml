@@ -1,0 +1,47 @@
+system_params:
+  freq: 50
+  R1: 0.5
+  L1: 0.031831
+  R2: 0.5
+  L2: 0.031831
+  R3: 7.57
+  C3: 0.318e-6
+
+control_params:
+  Kp_cci: 0.1
+  Ki_cci: 20
+  Kp_pco: 0.5
+  Ki_pco: 30
+  Kp_pll: 25
+  Ki_pll: 300
+
+system_base:
+  Sbase: 100
+  Vbase: 100
+
+external_grid:
+  V_nom: 85
+  Angle_ini: -110
+
+init_setpoints:
+  P: 0.2
+  V: 0.965
+
+events:
+  s1:
+    type: P
+    time: 1.
+    new_setpoint: 0.659
+  s2:
+    type: V
+    time: 1.5
+    new_setpoint: 1.01
+  s3:
+    type: CC
+    time: 2.
+    fault_time: 0.025
+    new_setpoint: 0.8
+  s4:
+    type: PJ
+    time: 2.5
+    new_setpoint: 12.5
