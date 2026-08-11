@@ -84,12 +84,12 @@ The results published in the pre-print can be attained by using the sim_setups: 
 
 Depicts all simulation variables for the specific simulation and solvers.
 <p align="center">
-<img align="middle" src="sim_4events_nr_nnjpg.jpg" alt="ODE Demo" width="800" height="450" />
+<img align="middle" src="Assets/sim_4events_nr_nn.jpg" alt="ODE Demo" width="800" height="450" />
 </p>
 
 #### Overview figure of the 100 events trajectory with the `solver_nr` and `solver_nn` solvers. The trajectories are saved in `Saved_trajectories` and compared with the provided [compare_sims.py](https://github.com/ignvenad/PINNs-in-EMT/blob/main/Saved_trajectories/compare_sims.py) script.
 
 Depicts all simulation variables for the specific simulation and solvers.
 <p align="center">
-<img align="middle" src="sim_100events_nr_nnjpg.jpg" alt="ODE Demo" width="800" height="450" />
+<img align="middle" src="Assets/sim_100events_nr_nn.jpg" alt="ODE Demo" width="800" height="450" />
 </p>
